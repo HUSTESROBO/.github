@@ -29,13 +29,13 @@ ESROBO 是一套集成移动底盘、双七轴机械臂和双五指灵巧手的�
 
 ## 平台开发资源
 
-基础资源统一维护在 **[HUSTESROBO/ESROBO](https://github.com/HUSTESROBO/ESROBO)**。
+基础资源统一维护在 **[HUSTESROBO/ESROBO](https://github.com/HUSTESROBO/ESROBO)**，包含设备驱动、开发文档、独立模型和通信接口；遥操作代码由下方应用项目单独维护。
 
 | 资源 | 内容 | 文档入口 |
 | --- | --- | --- |
 | **硬件文档** | 整机与部件手册、CAN／串口连接、设备命名和逐部件调试 | [手册索引](https://github.com/HUSTESROBO/ESROBO/blob/main/document/README.md) · [硬件接入](https://github.com/HUSTESROBO/ESROBO/blob/main/HARDWARE_BRINGUP.md) |
 | **驱动与 SDK** | 机械臂、灵巧手、底盘、腰部、头部、相机、雷达及力传感器的 ROS 2 驱动与底层库 | [驱动索引](https://github.com/HUSTESROBO/ESROBO/blob/main/src/README.md) |
-| **机器人模型** | 整机 URDF、关节连接与限位、灵巧手联动关系，以及模型资源来源 | [URDF](https://github.com/HUSTESROBO/ESROBO/tree/main/teleoperation/urdf) · [资源清单](https://github.com/HUSTESROBO/ESROBO/blob/main/teleoperation/assets/esrobo_waist_with_head/SOURCE.json) |
+| **机器人模型** | 独立整机 URDF、70 个视觉／碰撞网格、灵巧手联动及逐文件来源校验 | [URDF](https://github.com/HUSTESROBO/ESROBO/tree/main/model/esrobo_waist_with_head/urdf) · [资源清单](https://github.com/HUSTESROBO/ESROBO/blob/main/model/esrobo_waist_with_head/SOURCE.json) |
 | **通信与执行** | `robot_link` Python 客户端、认证 UDP、目标与反馈格式、执行网关和状态管理 | [接入指南](https://github.com/HUSTESROBO/ESROBO/blob/main/robot_link/README.md) · [协议](https://github.com/HUSTESROBO/ESROBO/blob/main/robot_link/PROTOCOL.md) · [执行流程](https://github.com/HUSTESROBO/ESROBO/blob/main/robot_link/ROBOT_EXECUTION.md) |
 
 ### 分布式控制架构
