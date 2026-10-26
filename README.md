@@ -28,3 +28,10 @@
 
 - 参考 [XR-Robotics](https://github.com/XR-Robotics) 的资源／样例分组，以及 [Unitree Robotics](https://github.com/unitreerobotics)、[ROBOTIS](https://github.com/robotis-git) 的分类仓库导航，将平台资源和应用入口前置；两个应用以并排卡片展示，硬件与控制架构放入可展开区。
 - 只借鉴导航结构，保留 ESROBO 自有文案和原创横幅，不复用其他组织的标识或产品素材。
+
+## 2026-10-26 交互模型入口
+
+- 增加同源 GLB 的离线渲染预览图与[公开模型查看器](https://hustesrobo-model-viewer.abloom-kite-0335.chatgpt.site)入口，组织 README 本身不执行三维脚本。
+- 页面支持 39 个主动关节、URDF mimic 联动、预设姿态、视角、导入／导出和图片保存；展示模型不连接真机。
+- 网站源目录为 `/home/yan/PhdResearch/HUSTESROBO/model-viewer/`，通过 Sites 工作流发布，站点版本 1、源提交 `5721c3c1039e1b104809c48ace478fecc1e64842`。用户明确选择公开、无需登录访问。
+- 数值／结构、静态资源和离线渲染检查已完成；当前无可用受控浏览器，未声称完成浏览器逐项交互或移动端视觉验收。

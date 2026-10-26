@@ -16,6 +16,29 @@
 
 ---
 
+## 🦾 在线探索 ESROBO
+
+<table>
+<tr>
+<td width="45%" align="center">
+<a href="https://hustesrobo-model-viewer.abloom-kite-0335.chatgpt.site"><img src="https://raw.githubusercontent.com/HUSTESROBO/.github/main/profile/assets/model-preview.webp" alt="ESROBO 模型渲染预览，点击打开交互查看器" width="360" /></a>
+</td>
+<td width="55%" valign="middle">
+<h3>从每一个关节，了解机器人。</h3>
+<p>旋转、缩放视角，点击部件查看名称，探索真实 URDF 定义的整机结构。</p>
+<ul>
+<li>双臂 14 轴、双手 20 个主动关节，以及腰部与头部调节</li>
+<li>手指联动、预设姿态与一键复位</li>
+<li>姿态导入／导出、线框查看与图片保存</li>
+</ul>
+<p><a href="https://hustesrobo-model-viewer.abloom-kite-0335.chatgpt.site"><strong>打开 3D 模型查看器 →</strong></a></p>
+<p><sub>公开访问，无需登录。预览图为模型离线渲染；关节交互仅用于展示，不连接真机。</sub></p>
+</td>
+</tr>
+</table>
+
+---
+
 ## 🧰 平台资源
 
 基础资源统一维护在 **[HUSTESROBO/ESROBO](https://github.com/HUSTESROBO/ESROBO)**，包含设备驱动、开发文档、独立模型和通信接口；遥操作代码由下方应用项目单独维护。
