@@ -6,7 +6,7 @@
 
 面向机器人开发与研究，连接硬件、控制、遥操作和仿真。
 
-[机器人平台](https://github.com/HUSTESROBO/esrobo) · [开发文档](https://github.com/HUSTESROBO/esrobo/tree/main/document) · [设备驱动](https://github.com/HUSTESROBO/esrobo/tree/main/src) · [通信协议](https://github.com/HUSTESROBO/esrobo/blob/main/robot_link/PROTOCOL.md)
+[机器人平台](https://github.com/HUSTESROBO/ESROBO) · [开发文档](https://github.com/HUSTESROBO/ESROBO/tree/main/document) · [设备驱动](https://github.com/HUSTESROBO/ESROBO/tree/main/src) · [通信协议](https://github.com/HUSTESROBO/ESROBO/blob/main/robot_link/PROTOCOL.md)
 
 </div>
 
@@ -20,11 +20,11 @@
 
 | 基础资源 | 提供的内容 | 入口 |
 | --- | --- | --- |
-| **ESROBO 平台仓库** | 硬件组成、系统架构、开发路线和应用导航 | [esrobo](https://github.com/HUSTESROBO/esrobo) |
-| **硬件与开发文档** | 整机、机械臂、底盘及灵巧手手册；接线、CAN/串口与逐部件调试 | [文档中心](https://github.com/HUSTESROBO/esrobo/blob/main/document/README.md) |
-| **设备驱动与 SDK** | 机械臂、灵巧手、底盘、腰部、头部、相机、雷达与力传感器 | [驱动索引](https://github.com/HUSTESROBO/esrobo/blob/main/src/README.md) |
-| **机器人通信** | Python 客户端、认证 UDP、配置合同、目标与反馈、执行网关 | [robot_link](https://github.com/HUSTESROBO/esrobo/tree/main/robot_link) |
-| **机器人模型** | 整机 URDF、关节语义、灵巧手 mimic 联动与运动组件 | [模型与控制组件](https://github.com/HUSTESROBO/esrobo/tree/main/teleoperation) |
+| **ESROBO 平台仓库** | 硬件组成、系统架构、开发路线和应用导航 | [esrobo](https://github.com/HUSTESROBO/ESROBO) |
+| **硬件与开发文档** | 整机、机械臂、底盘及灵巧手手册；接线、CAN/串口与逐部件调试 | [文档中心](https://github.com/HUSTESROBO/ESROBO/blob/main/document/README.md) |
+| **设备驱动与 SDK** | 机械臂、灵巧手、底盘、腰部、头部、相机、雷达与力传感器 | [驱动索引](https://github.com/HUSTESROBO/ESROBO/blob/main/src/README.md) |
+| **机器人通信** | Python 客户端、认证 UDP、配置合同、目标与反馈、执行网关 | [robot_link](https://github.com/HUSTESROBO/ESROBO/tree/main/robot_link) |
+| **机器人模型** | 整机 URDF、关节语义、灵巧手 mimic 联动与运动组件 | [模型与控制组件](https://github.com/HUSTESROBO/ESROBO/tree/main/teleoperation) |
 
 ### 开发一条完整控制链路
 
@@ -55,9 +55,9 @@ flowchart LR
 
 ## 从这里开始
 
-1. **认识机器人**：[平台总览](https://github.com/HUSTESROBO/esrobo)与[设备手册](https://github.com/HUSTESROBO/esrobo/tree/main/document)。
-2. **搭建硬件环境**：[逐部件调试](https://github.com/HUSTESROBO/esrobo/blob/main/HARDWARE_BRINGUP.md)与[驱动索引](https://github.com/HUSTESROBO/esrobo/blob/main/src/README.md)。
-3. **开发新应用**：[通信模块](https://github.com/HUSTESROBO/esrobo/tree/main/robot_link)、协议及 mock 联调。
+1. **认识机器人**：[平台总览](https://github.com/HUSTESROBO/ESROBO)与[设备手册](https://github.com/HUSTESROBO/ESROBO/tree/main/document)。
+2. **搭建硬件环境**：[逐部件调试](https://github.com/HUSTESROBO/ESROBO/blob/main/HARDWARE_BRINGUP.md)与[驱动索引](https://github.com/HUSTESROBO/ESROBO/blob/main/src/README.md)。
+3. **开发新应用**：[通信模块](https://github.com/HUSTESROBO/ESROBO/tree/main/robot_link)、协议及 mock 联调。
 4. **选择研究项目**：按上面的项目入口安装对应环境、模型和输入设备。
 
-硬件／协议问题在 [平台 Issues](https://github.com/HUSTESROBO/esrobo/issues)反馈；应用问题在对应项目反馈，并附代码版本、设备／环境和复现步骤。
+硬件／协议问题在 [平台 Issues](https://github.com/HUSTESROBO/ESROBO/issues)反馈；应用问题在对应项目反馈，并附代码版本、设备／环境和复现步骤。
